@@ -9,7 +9,7 @@ A Route Planning System for logistics companies that could make a plan of the sh
 ![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan.jpg)
 ![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan2.jpg)
 ## Download and Run
-Download and open the ![物流配送系统]().<br>
+Download and open the ![物流配送最优路径规划模拟系统](https://github.com/yaochenkun/RoutePlanner/blob/master/物流配送最优路径规划模拟系统.exe).<br>
 However, if your system lack of some '.dll' files, you may fail to run this program. At this time, you should install the expected [.dll files](https://github.com/yaochenkun/RoutePlanner/tree/master/缺失文件包) according to what the warning box mentions. 
 
 ## Environment and Configurations
@@ -23,6 +23,6 @@ However, if your system lack of some '.dll' files, you may fail to run this prog
 
 ## For More
 If you want to learn more about this program, you'd better refer to the following files:
-* [需求规格说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/需求规格说明书.pdf)
-* [系统设计说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/系统设计说明书.pdf)
-* [测试规格说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/测试规格说明书.pdf)
+* [需求规格说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/文档说明/需求规格说明书.pdf)
+* [系统设计说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/文档说明/系统设计说明书.pdf)
+* [测试规格说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/文档说明/测试规格说明书.pdf)
