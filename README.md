@@ -1,5 +1,5 @@
 # RoutePlanner
-A Route Planning System for logistics companies that could make a plan of the shortest route or the shortest time.
+A Route Planning System for logistics companies that could make a plan of the shortest route or the shortest time.<br>
 该项目旨在为物流公司货车规划最优行进路线，可按最短距离、最短时间两种方案进行规划，其次系统还能根据用户标注的路况（堵车级别：非常拥挤、较拥挤、一般、通畅）动态调整路线。
 
 ## Functions
@@ -18,9 +18,9 @@ A Route Planning System for logistics companies that could make a plan of the sh
 3. 
 
 ## Key Points
-1. Astar Algorithm(A星算法): 一种在图形平面上，有多个节点的路径，求出最低通过成本的算法。在本项目中用来启发式搜索任意两个节点间的最短路径。
-2. TSP(旅行商问题): 从某个位置出发，依次拜访若干不同位置一次且仅一次，最终回到起始位置的问题。本项目算法原型可以抽象为TSP。
-3. Genetic Algorithm(遗传算法): 遗传算法模拟自然选择和自然遗传过程中发生的繁殖、交叉和基因突变现象，在每次迭代中都保留一组候选解，并按某种指标从解群中选取较优的个体，利用遗传算子( 选择、交叉和变异) 对这些个体进行组合，产生新一代的候选解群，重复此过程，直到满足某种收敛指标为止。本项目采用该算法求解TSP，最终达到路径规划。
+1. __Astar Algorithm(A星算法)__: 一种在图形平面上，有多个节点的路径，求出最低通过成本的算法。在本项目中用来启发式搜索任意两个节点间的最短路径。
+2. __TSP(旅行商问题)__: 从某个位置出发，依次拜访若干不同位置一次且仅一次，最终回到起始位置的问题。本项目算法原型可以抽象为TSP。
+3. __Genetic Algorithm(遗传算法)__: 遗传算法模拟自然选择和自然遗传过程中发生的繁殖、交叉和基因突变现象，在每次迭代中都保留一组候选解，并按某种指标从解群中选取较优的个体，利用遗传算子( 选择、交叉和变异) 对这些个体进行组合，产生新一代的候选解群，重复此过程，直到满足某种收敛指标为止。本项目采用该算法求解TSP，最终达到路径规划。
 
 ## For More
 If you want to learn more about this program, you'd better refer to XX to have a further look.
