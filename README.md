@@ -14,7 +14,7 @@ However, if your system lack of some '.dll' files, you may fail to run this prog
 
 ## Environment and Configurations
 1. Download and install VC++ 6.0(it provides MFC library we depend on).
-2. Open the project file [物流配送最优路径规划模拟系统](https://github.com/yaochenkun/RoutePlanner/blob/master/src/物流配送最优路径规划模拟系统.dsw) and compile this project.
+2. Open the project file [物流配送最优路径规划模拟系统.dsw](https://github.com/yaochenkun/RoutePlanner/blob/master/src/物流配送最优路径规划模拟系统.dsw) in VC and compile this project.
 
 ## Key Points
 1. __Astar Algorithm(A星算法)__: 一种在图形平面上，有多个节点的路径，求出最低通过成本的算法。在本项目中用来启发式搜索任意两个节点间的最短路径。
