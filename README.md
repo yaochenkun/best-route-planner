@@ -8,14 +8,13 @@ A Route Planning System for logistics companies that could make a plan of the sh
 ## Screenshot
 ![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan.jpg)
 ![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan2.jpg)
-
 ## Download and Run
-
+Download and open the ![物流配送系统]().<br>
+However, if your system lack of some '.dll' files, you may fail to run this program. At this time, you should install the expected !['.dll' files](https://github.com/yaochenkun/RoutePlanner/tree/master/缺失文件包) according to what the warning box mentions. 
 
 ## Environment and Configurations
-1. 
-2. 
-3. 
+1. Download and install VC++ 6.0(it provides MFC library we depend on).
+2. Open the project file and compile this project.
 
 ## Key Points
 1. __Astar Algorithm(A星算法)__: 一种在图形平面上，有多个节点的路径，求出最低通过成本的算法。在本项目中用来启发式搜索任意两个节点间的最短路径。
@@ -23,4 +22,7 @@ A Route Planning System for logistics companies that could make a plan of the sh
 3. __Genetic Algorithm(遗传算法)__: 遗传算法模拟自然选择和自然遗传过程中发生的繁殖、交叉和基因突变现象，在每次迭代中都保留一组候选解，并按某种指标从解群中选取较优的个体，利用遗传算子( 选择、交叉和变异) 对这些个体进行组合，产生新一代的候选解群，重复此过程，直到满足某种收敛指标为止。本项目采用该算法求解TSP，最终达到路径规划。
 
 ## For More
-If you want to learn more about this program, you'd better refer to XX to have a further look.
+If you want to learn more about this program, you'd better refer to the following files:
+* ![需求规格说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/需求规格说明书.pdf)
+* ![系统设计说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/系统设计说明书.pdf)
+* ![测试规格说明书](https://github.com/yaochenkun/RoutePlanner/blob/master/测试规格说明书.pdf)
