@@ -1,0 +1,518 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\物流配送最优路径规划模拟系统.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\5.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MyDlg DIALOGEX 0, 0, 526, 413
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "物流配送最优路径规划模拟系统"
+MENU IDR_HelpMenu
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NeedEdit,57,23,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FuelEdit,57,45,44,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OtherEdit,57,67,44,12,ES_AUTOHSCROLL
+    CONTROL         "最短路径",IDC_MindisRadio,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,34,107,45,15
+    CONTROL         "最短时间",IDC_MintimRadio,"Button",BS_AUTORADIOBUTTON,
+                    34,131,46,15
+    PUSHBUTTON      "寻路",IDC_OkButton,15,167,85,22
+    PUSHBUTTON      "暂停",IDC_StopButton,15,195,85,22
+    PUSHBUTTON      "重找",IDC_ReplayButton,16,253,38,22
+    PUSHBUTTON      "重置",IDC_ResetButton,16,224,84,22
+    LTEXT           "需求量(吨)",IDC_STATIC,14,25,40,8
+    LTEXT           "燃油费(元)",IDC_STATIC,14,47,40,8
+    LTEXT           "其余费(元)",IDC_STATIC,13,69,40,8
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,119,7,400,400
+    GROUPBOX        "输入区",IDC_STATIC,7,7,102,276
+    GROUPBOX        "状态区",IDC_STATIC,7,287,102,119
+    LTEXT           "总里程(千米)",IDC_STATIC,16,305,49,8
+    LTEXT           "Static",IDC_DistanceStr,74,305,26,8
+    LTEXT           "Static",IDC_PrimeStr,74,326,26,8
+    LTEXT           "Static",IDC_WholeStr,74,347,26,8
+    LTEXT           "Static",IDC_SpeedStr,74,368,26,8
+    LTEXT           "Static",IDC_TrafficStr,74,389,26,8
+    LTEXT           "配送成本(元)",IDC_STATIC,16,326,49,8
+    LTEXT           "预期时长(时)",IDC_STATIC,16,347,49,8
+    LTEXT           "速度(千米/时)",IDC_STATIC,16,368,53,8
+    LTEXT           "当前路况",IDC_STATIC,16,389,49,8
+    GROUPBOX        "方案选择",IDC_STATIC,15,90,86,69
+    PUSHBUTTON      "测试",IDC_TestButton,61,253,38,22
+    LTEXT           "static",IDC_x,455,7,12,8,0,WS_EX_TRANSPARENT
+    LTEXT           "static",IDC_y,472,7,12,8,0,WS_EX_TRANSPARENT
+    LTEXT           "Static",IDC_ModeStr,159,7,59,8
+END
+
+IDD_HelpDlg DIALOG DISCARDABLE  0, 0, 317, 347
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "使用说明"
+FONT 11, "宋体"
+BEGIN
+    GROUPBOX        "输入区",IDC_STATIC,7,7,135,312
+    GROUPBOX        "地图区",IDC_STATIC,141,7,169,312
+    LTEXT           "需求量",IDC_STATIC,13,17,24,8
+    LTEXT           "燃油费",IDC_STATIC,13,30,24,8
+    LTEXT           "其余费",IDC_STATIC,13,42,24,8
+    LTEXT           "影响平均行驶速度",IDC_STATIC,49,17,74,8
+    LTEXT           "与总里程共同影响成本费",IDC_STATIC,49,30,88,8
+    LTEXT           "影响成本费",IDC_STATIC,49,42,74,8
+    GROUPBOX        "方案选择",IDC_STATIC,7,54,135,58
+    LTEXT           "最短路径",IDC_STATIC,13,67,33,8
+    LTEXT           "只找最短而不受堵车影响",IDC_STATIC,49,67,88,8
+    LTEXT           "最短时间",IDC_STATIC,13,83,33,8
+    LTEXT           "可在地图上随机标注堵车路段，汽车能绕过之动态规划新的最短时间路线",
+                    IDC_STATIC,49,83,88,26
+    GROUPBOX        "状态区",IDC_STATIC,7,198,135,121
+    LTEXT           "总里程",IDC_STATIC,13,209,25,8
+    LTEXT           "从仓库出发再回仓库的总行驶路程",IDC_STATIC,46,209,88,16
+    LTEXT           "配送成本",IDC_STATIC,13,229,33,8
+    LTEXT           "由一系列综合因素计算得到的配送最低成本",IDC_STATIC,46,
+                    229,88,16
+    LTEXT           "预期时长",IDC_STATIC,13,250,32,8
+    LTEXT           "对道路路况、货车配置分析后得到的时间",IDC_STATIC,46,250,
+                    88,16
+    LTEXT           "速度",IDC_STATIC,13,273,32,8
+    LTEXT           "由货车配置、路况共同得到的行驶速度",IDC_STATIC,46,273,
+                    88,24
+    LTEXT           "当前路况",IDC_STATIC,13,303,32,8
+    LTEXT           "汽车所在路段是否堵车",IDC_STATIC,46,303,82,8
+    PUSHBUTTON      "确定",IDC_BUTTON1,13,114,31,13
+    LTEXT           "暂停行进以标记堵车路段",IDC_STATIC,51,132,85,10
+    LTEXT           "输入与标注完毕后点击",IDC_STATIC,51,116,85,10
+    LTEXT           "以录入信息重新找出路线",IDC_STATIC,51,164,85,10
+    LTEXT           "清空所有信息并重新录入",IDC_STATIC,51,148,85,10
+    LTEXT           "手动双击路段测试数据",IDC_STATIC,51,180,84,10
+    PUSHBUTTON      "暂停",IDC_BUTTON2,13,130,31,13
+    PUSHBUTTON      "重置",IDC_BUTTON3,13,146,31,13
+    PUSHBUTTON      "重找",IDC_BUTTON4,13,162,31,13
+    PUSHBUTTON      "测试",IDC_BUTTON5,13,178,31,13
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,177,22,26,
+                    28
+    CONTROL         160,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,147,22,26,
+                    28
+    CONTROL         161,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,236,30,68,
+                    14
+    CONTROL         158,IDC_ClientNode,"Static",SS_BITMAP | SS_SUNKEN,207,22,
+                    26,28
+    LTEXT           "标记点",IDC_STATIC,148,55,24,8
+    LTEXT           "仓库点",IDC_STATIC,179,55,24,8
+    LTEXT           "客户点",IDC_STATIC,210,55,24,8
+    LTEXT           "堵车路段",IDC_STATIC,255,55,33,8
+    CONTROL         165,IDC_RightMenu,"Static",SS_BITMAP | SS_SUNKEN,148,70,
+                    93,59
+    LTEXT           "右键点击地图上的蓝点，可以选择将其标记为仓库或者客户地址。标记后则出现上方两种示意旗帜。",
+                    IDC_STATIC,246,70,56,58
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,148,135,
+                    107,69
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,148,210,93,
+                    71
+    LTEXT           "将鼠标移至道路上选中，右键点击后可设置其为流畅或拥挤路况。",
+                    IDC_STATIC,259,135,43,69
+    LTEXT           "点击确定按钮后，从仓库处出现红色线条模拟行进路线。每配送到一个客户后，之前的红线消失。",
+                    IDC_STATIC,245,210,57,71
+    LTEXT           "手动测试时，从仓库所在道路起，据自己所想路线双击道路。状态栏显示所到之处的信息。",
+                    IDC_STATIC,148,293,156,16
+    PUSHBUTTON      "关闭",IDC_EnterButton,199,325,71,15
+    PUSHBUTTON      "下一页",IDC_NextButton,41,325,71,15
+END
+
+IDD_HelpDlg2 DIALOG DISCARDABLE  0, 0, 317, 347
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "使用说明"
+FONT 11, "宋体"
+BEGIN
+    GROUPBOX        "测试按钮",IDC_STATIC,154,7,149,312
+    GROUPBOX        "重找按钮",IDC_STATIC,7,7,148,312
+    PUSHBUTTON      "上一页",IDC_LastButton,42,326,70,14
+    PUSHBUTTON      "关闭",IDC_EnterButton2,196,326,70,14
+    LTEXT           "   在寻路一次后，由于随机算法本身的缺陷，往往不一定得到最短路径。用户此时可以按下重找按钮，系统可以帮助您重新搜索路径。",
+                    IDC_STATIC,17,32,125,34
+    LTEXT           "   重新搜索得到的路径一定比上一次的短，容易逼近最短路径。（适合实际用）",
+                    IDC_STATIC,19,102,125,24
+    LTEXT           "   重新搜索得到的路径一定比上一次的短，容易逼近最短路径。（适合实际用）",
+                    IDC_STATIC,19,151,121,24
+    GROUPBOX        "简介",IDC_STATIC,13,22,136,46
+    GROUPBOX        "模式",IDC_STATIC,13,72,136,108
+    LTEXT           "   用户在寻路完成以后，可以点击测试按钮进行手动测试。将测试结果与系统搜索得到的结果进行对比，使结果更具有说服力。",
+                    IDC_STATIC,166,31,125,34
+    GROUPBOX        "简介",IDC_STATIC,161,22,136,46
+    CONTROL         173,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,19,82,61,
+                    17
+    CONTROL         174,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,19,130,61,
+                    17
+    GROUPBOX        "示例",IDC_STATIC,13,184,136,127
+    CONTROL         175,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,65,201,78,
+                    18
+    LTEXT           "1.初次寻路",IDC_STATIC,20,206,41,8
+    CONTROL         176,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,65,240,77,
+                    17
+    LTEXT           "2.一次重找",IDC_STATIC,20,245,41,8
+    CONTROL         177,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,65,278,77,
+                    17
+    LTEXT           "3.二次重找",IDC_STATIC,20,284,41,8
+    GROUPBOX        "操作细则",IDC_STATIC,161,72,136,239
+    CONTROL         178,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,170,89,60,
+                    64
+    CONTROL         179,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,170,185,
+                    107,119
+    LTEXT           "1.测试过程必须从仓库地址处开始。仓库旁边的红点已经注明了小车出发的起始位置。",
+                    IDC_STATIC,236,90,54,61
+    LTEXT           "2.如图所示，用户双击的位置最好是下下次将要到达的道路。",
+                    IDC_STATIC,170,161,121,19
+END
+
+IDD_CarDlg DIALOG DISCARDABLE  0, 0, 187, 132
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "小车信息"
+FONT 11, "宋体"
+BEGIN
+    LTEXT           "规格",IDC_STATIC,35,32,39,8
+    LTEXT           "功率",IDC_STATIC,35,57,39,8
+    LTEXT           "自重",IDC_STATIC,35,83,39,8
+    LTEXT           "耗油费",IDC_STATIC,35,109,39,8
+    LTEXT           "Static",IDC_KindStr,83,31,30,8,NOT WS_GROUP
+    LTEXT           "Static",IDC_PowerStr,83,56,30,8
+    LTEXT           "Static",IDC_WeightStr,83,82,32,8
+    LTEXT           "Static",IDC_OilStr,83,108,32,8
+    LTEXT           "信息项",IDC_STATIC,35,13,39,8
+    LTEXT           "参数",IDC_STATIC,83,13,18,8
+    LTEXT           "单位",IDC_STATIC,128,13,21,8
+    LTEXT           "千瓦",IDC_OilStr2,129,56,45,8
+    LTEXT           "吨",IDC_OilStr3,129,82,45,8
+    LTEXT           "元/千米",IDC_OilStr4,129,108,45,8
+    LTEXT           "无",IDC_OilStr5,129,31,45,8
+    LTEXT           "———————————————————————",
+                    IDC_STATIC,7,21,173,8
+    LTEXT           "———————————————————————",
+                    IDC_STATIC,7,44,173,8
+    LTEXT           "———————————————————————",
+                    IDC_STATIC,7,70,173,8
+    LTEXT           "———————————————————————",
+                    IDC_STATIC,7,97,173,8
+END
+
+IDD_LawDlg DIALOG DISCARDABLE  0, 0, 264, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "演算公式"
+FONT 11, "宋体"
+BEGIN
+    LTEXT           "指标",IDC_STATIC,27,14,24,8
+    LTEXT           "计算公式",IDC_STATIC,116,14,31,8
+    LTEXT           "单位",IDC_STATIC,69,14,24,8
+    LTEXT           "总里程",IDC_STATIC,27,37,24,8
+    LTEXT           "往返Windows设备坐标总像素/比例尺（30：1）",IDC_STATIC,
+                    117,34,135,17
+    LTEXT           "千米",IDC_STATIC,69,37,24,8
+    LTEXT           "配送成本",IDC_STATIC,27,61,30,8
+    LTEXT           "燃油费用×路程+预期时长×每小时损失费+其余费用",
+                    IDC_STATIC,117,57,127,16
+    LTEXT           "元",IDC_STATIC,69,61,24,8
+    LTEXT           "预期时长",IDC_STATIC,27,86,32,8
+    LTEXT           "Σ(各路段里程÷对应速度)",IDC_STATIC,117,86,130,8
+    LTEXT           "小时",IDC_STATIC,69,86,24,8
+    LTEXT           "速度",IDC_STATIC,27,110,24,8
+    LTEXT           "额定功率÷(需求量+对应货车重量)+波动值。堵车时在3.6千米/时左右波动",
+                    IDC_STATIC,117,106,140,17
+    LTEXT           "千米/时",IDC_STATIC,69,110,28,8
+    LTEXT           "—————————————————————————————————",
+                    IDC_STATIC,7,25,250,8
+    LTEXT           "—————————————————————————————————",
+                    IDC_STATIC,7,49,250,8
+    LTEXT           "—————————————————————————————————",
+                    IDC_STATIC,7,74,250,8
+    LTEXT           "—————————————————————————————————",
+                    IDC_STATIC,7,98,250,8
+    LTEXT           "路况",IDC_STATIC,27,134,24,8
+    LTEXT           "速度>>3.6千米/时为流畅；3.6千米/时附近为拥挤",
+                    IDC_STATIC,117,130,128,21
+    LTEXT           "无",IDC_STATIC,69,134,24,8
+    LTEXT           "—————————————————————————————————",
+                    IDC_STATIC,7,121,250,8
+END
+
+IDD_QueryDlg DIALOG DISCARDABLE  0, 0, 642, 265
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查询"
+FONT 12, "宋体"
+BEGIN
+    EDITTEXT        IDC_RouteEdit,470,29,157,219,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "List1",IDC_RecordList,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOLABELWRAP | LVS_AUTOARRANGE | 
+                    WS_BORDER | WS_TABSTOP,14,27,447,221
+    GROUPBOX        "历史记录",IDC_STATIC,14,14,448,235
+    GROUPBOX        "路线信息",IDC_STATIC,470,14,158,235
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "物流配送最优路径规划模拟系统 Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "物流配送最优路径规划模拟系统\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "物流配送最优路径规划模拟系统.EXE\0"
+            VALUE "ProductName", "物流配送最优路径规划模拟系统 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MyDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 519
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 406
+    END
+
+    IDD_HelpDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 340
+    END
+
+    IDD_HelpDlg2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 340
+    END
+
+    IDD_CarDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_LawDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_QueryDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 635
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_StoreFlag           BITMAP  DISCARDABLE     "res\\StoreFlag.bmp"
+IDB_Map                 BITMAP  DISCARDABLE     "res\\map.bmp"
+IDB_ClientFlag          BITMAP  DISCARDABLE     "res\\客户旗.bmp"
+IDB_OnMap               BITMAP  DISCARDABLE     "res\\OnMap.bmp"
+IDB_StoreNode           BITMAP  DISCARDABLE     "res\\Store.bmp"
+IDB_ClientNode          BITMAP  DISCARDABLE     "res\\Client.bmp"
+IDB_BlueNode            BITMAP  DISCARDABLE     "res\\Store and Client.bmp"
+IDB_Road                BITMAP  DISCARDABLE     "res\\Road.bmp"
+IDB_RightMenu           BITMAP  DISCARDABLE     "res\\RightMenu.bmp"
+IDB_Traffic             BITMAP  DISCARDABLE     "res\\Traffic.bmp"
+IDB_Running             BITMAP  DISCARDABLE     "res\\Running.bmp"
+IDB_BeenFlag            BITMAP  DISCARDABLE     "res\\BeenClient.bmp"
+IDB_AimMode             BITMAP  DISCARDABLE     "res\\AimMode.bmp"
+IDB_RandMode            BITMAP  DISCARDABLE     "res\\RandMode.bmp"
+IDB_108                 BITMAP  DISCARDABLE     "res\\108.bmp"
+IDB_103                 BITMAP  DISCARDABLE     "res\\103.bmp"
+IDB_93                  BITMAP  DISCARDABLE     "res\\93.bmp"
+IDB_Beginning           BITMAP  DISCARDABLE     "res\\Beginning.bmp"
+IDB_DoubleDown          BITMAP  DISCARDABLE     "res\\DoubleDown.bmp"
+IDB_Arrive              BITMAP  DISCARDABLE     "res\\Arrive.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MarkMenu MENU DISCARDABLE 
+BEGIN
+    POPUP "sad"
+    BEGIN
+        MENUITEM "标记仓库",                    ID_StoreMenu
+        MENUITEM "标记客户",                    ID_ClientMenu
+        POPUP "设置路况"
+        BEGIN
+            MENUITEM "流畅",                        ID_SmoothMenu
+            MENUITEM "拥挤",                        ID_CrowdMenu
+        END
+    END
+END
+
+IDR_HelpMenu MENU DISCARDABLE 
+BEGIN
+    POPUP "历史记录"
+    BEGIN
+        MENUITEM "查询",                        ID_QueryMenu
+    END
+    POPUP "参考信息"
+    BEGIN
+        MENUITEM "推荐货车配置",                ID_CarMenu
+        MENUITEM "演算公式",                    ID_LawMenu
+        MENUITEM "使用说明",                    ID_HelpMenu
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 物流配送最优路径规划模拟系统(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\物流配送最优路径规划模拟系统.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

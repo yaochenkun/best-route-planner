@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 物流配送最优路径规划模拟系统 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Ken\AppData\Local\Temp\RSPAE31.tmp" with contents
+[
+Msimg32.lib libmysql.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/物流配送最优路径规划模拟系统.pdb" /debug /machine:I386 /out:"Debug/物流配送最优路径规划模拟系统.exe" /pdbtype:sept 
+.\Debug\CarDlg.obj
+.\Debug\HelpDlg.obj
+.\Debug\HelpDlg2.obj
+.\Debug\LawDlg.obj
+.\Debug\QueryDlg.obj
+.\Debug\StdAfx.obj
+".\Debug\物流配送最优路径规划模拟系统.obj"
+".\Debug\物流配送最优路径规划模拟系统Dlg.obj"
+".\Debug\物流配送最优路径规划模拟系统.res"
+]
+Creating command line "link.exe @C:\Users\Ken\AppData\Local\Temp\RSPAE31.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+物流配送最优路径规划模拟系统.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
