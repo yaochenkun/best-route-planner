@@ -9,7 +9,7 @@ A Route Planning System for logistics companies that could make a plan of the sh
 ![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan.jpg)
 ![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan2.jpg)
 ## Download and Run
-* Download and open the [物流配送最优路径规划模拟系统](https://github.com/yaochenkun/RoutePlanner/blob/master/物流配送最优路径规划模拟系统.exe).<br>
+* Download and open the [物流配送最优路径规划模拟系统.exe](https://github.com/yaochenkun/RoutePlanner/blob/master/物流配送最优路径规划模拟系统.exe).<br>
 * However, if your system lack of some __'.dll'__ files, you may fail to run this program. At this time, you should install the expected [.dll files](https://github.com/yaochenkun/RoutePlanner/tree/master/缺失文件包) according to what the warning box mentions.<br>
 * __Or if you don't want to install these '.dll' files one by one, you could just install [vc6_cn_full.exe](https://github.com/yaochenkun/RoutePlanner/blob/master/缺失文件包/vc6_cn_full.exe) which contains all the '.dll' files this program needs.__
 
