@@ -6,8 +6,8 @@ A Route Planning System for logistics companies that could make a plan of the sh
 用户可以在右侧的地图上任意标注仓库地址（黑白旗）和客户地址（橙色旗），在左侧输入配送的基本数据，选择规划方案，点击寻路，右侧地图上将同步模拟配送路线，即先从仓库出发，先后到达所有客户地址，最终返回仓库的过程，而在配送过程中用户可以对道路的堵车级别进行标注，系统能权衡当前路况、规划方案、当前所在位置、客户地址等多方面因素，自适应地规划出新的路线，并同步显示。
 
 ## Screenshot
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan.jpg)
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2016/07/pathplan2.jpg)
+![](http://yaochenkun.cn/wp-content/uploads/2016/07/pathplan.jpg)
+![](http://yaochenkun.cn/wp-content/uploads/2016/07/pathplan2.jpg)
 ## Download and Run
 * Download and open the [物流配送最优路径规划模拟系统.exe](https://github.com/yaochenkun/RoutePlanner/blob/master/物流配送最优路径规划模拟系统.exe).<br>
 * However, if your system lack of some __'.dll'__ files, you may fail to run this program. At this time, you should install the expected [.dll files](https://github.com/yaochenkun/RoutePlanner/tree/master/缺失文件包) according to what the warning box mentions.<br>
